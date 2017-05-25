@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #49423a;
+  width: 100%;
+  list-style-type: none;
+  padding: 20px 175px; }
+  nav a {
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-family: "lato"; }
+  nav a:hover {
+    color: #fbb535;
+    text-decoration: none; }
+
+.container-fluid {
+  color: white;
+  font-family: "lato"; }
+  .container-fluid p {
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: 0 20px;
+    font-size: 14px;
+    height: 115px;
+    padding-top: 10px; }
+  .container-fluid .sidebyside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white; }
+  .container-fluid .image {
+    float: right;
+    vertical-align: middle;
+    border-left: 2px solid white;
+    padding-left: 15px; }
+
+@media screen and (max-width: 640px) {
+  body {
+    width: 25%; } }
+@media screen and (max-width: 1279px) {
+  .card {
+    width: 50%; } }
+@media screen and (max-width: 639px) {
+  .card {
+    width: 25%; } }
+body {
+  box-sizing: border-box; }
+
+h3 {
+  text-transform: capitalize; }
+
+img {
+  display: block;
+  margin-left: auto; }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #49423a;
+  height: 75px; }
+
+h4 {
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 2px; }
+
+#aviator {
+  background-color: #6fcbd5; }
+
+#bowtie {
+  background-color: #fbb535; }
+
+#ciggy {
+  background-color: #df4b35; }
+
+#dreamcatcher {
+  background-color: #ccbeac; }
+
+#espresso {
+  background-color: #49423a; }
+
+#fixie {
+  background-color: #a1d082; }
+
+#graphic {
+  background-color: #6fcbd5; }
+
+#homebrew {
+  background-color: #fbb535; }
+
+#irony {
+  background-color: #df4b35; }
+
+#jorts {
+  background-color: #ccbeac; }
+
+#kombucha {
+  background-color: #49423a; }
+
+#lettering {
+  background-color: #a1d082; }
+
+#mustache {
+  background-color: #6fcbd5; }
+
+#neutral {
+  background-color: #fbb535; }
+
+#organic {
+  background-color: #df4b35; }
+
+#poloroid {
+  background-color: #ccbeac; }
+
+#quidditch {
+  background-color: #49423a; }
+
+#retro {
+  background-color: #a1d082; }
+
+#scarf {
+  background-color: #6fcbd5; }
+
+#typewriter {
+  background-color: #fbb535; }
+
+#upcycling {
+  background-color: #df4b35; }
+
+#vinyl {
+  background-color: #ccbeac; }
+
+#liquor {
+  background-color: #49423a; }
+
+#xx {
+  background-color: #a1d082; }
+
+#yoga {
+  background-color: #6fcbd5; }
+
+#zeitgeist {
+  background-color: #fbb535; }
+
+#hipster_logo {
+  padding-top: 130px;
+  padding-bottom: 147px;
+  background-color: gainsboro; }
+
+/*# sourceMappingURL=hipster.css.map */

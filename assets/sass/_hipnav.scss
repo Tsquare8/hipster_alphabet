@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #49423a;
+  width: 100%;
+  list-style-type: none;
+  padding: 20px 175px;
+
+  a {
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-family: "lato";
+  }
+
+a:hover {
+color: #fbb535;
+text-decoration: none
+}
+
+}
